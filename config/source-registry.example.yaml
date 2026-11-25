@@ -1,0 +1,4 @@
+# Synthetic empty registry. No actual source selection is disclosed.
+sources: []
+# Each private entry may contain:
+# name, public_url, channel, evidence_type, scope

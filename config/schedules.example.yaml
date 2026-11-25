@@ -1,0 +1,8 @@
+# Deliberately unset. Configure privately.
+conditional_alert:
+  cadence: null
+periodic_digest:
+  cadence: null
+collection:
+  cadence: null
+timezone: null

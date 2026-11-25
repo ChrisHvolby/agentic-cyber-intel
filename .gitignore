@@ -1,0 +1,12 @@
+# Keep populated local configuration out of version control.
+.env
+.env.*
+!.env.example
+*.local.yaml
+*.local.yml
+*.local.opml
+private/
+local/
+reports/
+*.pem
+*.key
