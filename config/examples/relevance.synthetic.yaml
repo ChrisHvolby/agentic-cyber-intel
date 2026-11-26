@@ -1,0 +1,21 @@
+# ILLUSTRATIVE ONLY — fictional teaching profile, not an actual inventory.
+profile_type: synthetic_example
+P1:
+  - Payment processing services
+  - Customer-facing application platforms
+  - Identity and authentication services
+  - Data protection and recovery systems
+  - Network and perimeter infrastructure
+P2:
+  - Enterprise endpoints
+  - Database platforms
+  - Virtualization and container platforms
+  - Collaboration services
+  - Cloud management platforms
+P3:
+  - Programming languages and runtimes
+  - Open-source dependencies
+  - Developer tooling
+  - CI/CD platforms
+  - Emerging technologies
+critical_override: Material exploitation or widespread exposure may warrant review at any tier

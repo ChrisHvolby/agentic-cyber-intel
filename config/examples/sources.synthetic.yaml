@@ -1,0 +1,22 @@
+# ILLUSTRATIVE ONLY — URLs are intentionally non-resolving placeholders.
+sources:
+  - name: Fictional supplier security notices
+    public_url: https://supplier.example.invalid/security/feed.xml
+    channel: rss
+    evidence_type: primary
+    scope: product advisories
+  - name: Fictional national incident coordination center
+    public_url: https://coordination.example.invalid/advisories
+    channel: web
+    evidence_type: primary
+    scope: threat and exploitation notices
+  - name: Fictional vulnerability registry
+    public_url: https://registry.example.invalid/api/advisories
+    channel: api
+    evidence_type: registry
+    scope: vulnerability metadata
+  - name: Fictional research publisher
+    public_url: https://research.example.invalid/security/feed.xml
+    channel: rss
+    evidence_type: secondary_or_original_research
+    scope: technical research

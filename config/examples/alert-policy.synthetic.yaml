@@ -1,0 +1,16 @@
+# ILLUSTRATIVE ONLY — fictional criteria, not production defaults.
+material_changes:
+  - confirmed exploitation
+  - newly available remediation for a previously reported critical issue
+  - materially expanded affected scope
+provisional_evidence:
+  allowed: [V2, V3]
+  action: request human verification before remediation
+early_signal:
+  grade: V4
+  action: include only in digest when materially relevant
+coverage_failure:
+  action: separate warning when a critical collection channel remains unavailable
+delivery:
+  recipient: authorized reviewer placeholder
+  language: English

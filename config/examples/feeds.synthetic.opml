@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0"><head><title>Illustrative non-resolving feeds</title></head><body>
+<outline text="Fictional supplier" title="Fictional supplier" type="rss" xmlUrl="https://supplier.example.invalid/security/feed.xml"/>
+<outline text="Fictional research publisher" title="Fictional research publisher" type="rss" xmlUrl="https://research.example.invalid/security/feed.xml"/>
+</body></opml>

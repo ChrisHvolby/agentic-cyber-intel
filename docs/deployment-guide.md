@@ -1,9 +1,9 @@
 # Deployment guide
 
 1. Select a managed assistant with supported scheduled execution and public information retrieval. Confirm actual permissions and product capabilities.
-2. Privately define relevant asset categories, trusted sources, escalation criteria and schedules. Copy the example configuration into a private location; never commit populated configuration here.
+2. Read the [worked examples](../config/examples/README.md) and [personalization guide](personalization-guide.md). Copy the empty templates in config/ to a private location. Define relevant categories, sources, escalation criteria and schedules; never commit real configuration here.
 3. Optionally configure a managed feed delivery service and a dedicated public-intelligence message folder. Test routing and read-only scoped retrieval. Do not forward confidential messages.
-4. Combine the shared prompt with the conditional alert prompt for one task, and with the periodic digest prompt for another. Substitute placeholders privately. Confirm actual scheduling and connector support.
+4. Combine the [shared prompt](../prompts/shared-policy.md) with the [conditional alert](../prompts/conditional-alert.md) for one task, and with the [periodic digest](../prompts/periodic-digest.md) for another. Substitute placeholders privately. The [worked prompt examples](../prompts/examples/README.md) demonstrate how to translate descriptive configuration into instructions manually; no automatic YAML binding is provided.
 5. Execute the validation plan with synthetic inputs before relying on outputs. Test scheduled execution separately from interactive execution.
 6. Review observed coverage, freshness and evidence quality before expanding scope.
 

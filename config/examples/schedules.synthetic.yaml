@@ -1,0 +1,9 @@
+# ILLUSTRATIVE ONLY — arbitrary teaching values, not operational recommendations.
+conditional_alert:
+  cadence: every 8 hours
+periodic_digest:
+  cadence: every Thursday at 14:00
+collection:
+  cadence: every 3 hours
+timezone: Etc/UTC
+# Confirm provider support and actual latency; these values are not a guarantee.
