@@ -2,7 +2,7 @@
 
 A vendor-neutral reference architecture for AI-assisted cybersecurity intelligence using managed scheduling, public information sources and human-led triage.
 
-**v1.0 RC2 — pending maintainer review.**
+**v1.0.0 — Initial public reference architecture.**
 
 Security teams face a high volume of advisories with uneven evidence and operational relevance. This project describes a configurable approach to collecting, correlating and presenting public security intelligence without requiring a user-managed application runtime.
 
